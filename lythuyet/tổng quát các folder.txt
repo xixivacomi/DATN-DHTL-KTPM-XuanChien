@@ -1,0 +1,17 @@
+adapter: để sắp xếp các thành phần của trang lại, ví dụ như có 5 ô nếu ko có adapter thì nó sẽ dàn hàng, còn khi sử dụng nó thì sẽ đc sắp xếp xuống dòng
+base: là lớp cha dùng chung, dùng để các lớp khác kế thừa
+fragment: là các trang , màn hình chính của giao diện: VD giao diện người dùng: home, ds bàn, đổi thông tin, lịch sử đơn đặt, lịch sử hóa đơn
+model: khai báo các thuộc tính
+viewmodel: các trang nhỏ của từng trang lớn, VD: giao diện chính -> chi tiết món ăn -> xác nhận đặt
+
+
+
+
+
+
+
+
+
+
+
+docker run --detach --network some-network --name xixivacomi --env MARIADB_USER=example-user --env MARIADB_PASSWORD=123456a@ --env MARIADB_ROOT_PASSWORD=123456a@  mariadb:latest
